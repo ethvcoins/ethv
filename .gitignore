@@ -1,0 +1,26 @@
+src/*.exe
+src/ethgold
+src/ethgoldd
+src/test_ethgold
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ethgold
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+ethgold-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
