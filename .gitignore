@@ -1,7 +1,7 @@
 src/*.exe
-src/ethgold
-src/ethgoldd
-src/test_ethgold
+src/ethvcoin
+src/ethvcoind
+src/test_ethvcoin
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.ethgold
+.ethvcoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-ethgold-qt
+ethvcoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

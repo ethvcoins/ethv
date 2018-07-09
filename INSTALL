@@ -1,9 +1,9 @@
-Building ethgold
+Building ethvcoin
 
-See doc/readme-qt.rst for instructions on building ethgold QT,
+See doc/readme-qt.rst for instructions on building ethvcoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of ethgold.
+implementation of ethvcoin.
 
-See doc/build-*.txt for instructions on building ethgoldd,
+See doc/build-*.txt for instructions on building ethvcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of ethgold.
+implementation of ethvcoin.

@@ -1,7 +1,7 @@
 
-ethgold development tree
+ETHVCoin development tree
 
-ethgold is a PoS-based cryptocurrency.
+ETHVCoin is a PoS-based Cryptocurrency.
 
 Development process
 ===========================
@@ -16,7 +16,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-stable release versions of ethgold.
+stable release versions of ETHVCoin.
 
 Feature branches are created when there are major new features being
 worked on by several people.
@@ -28,5 +28,5 @@ after the warning if action is not taken by the author. Pull requests closed
 in this manner will have their corresponding issue labeled 'stagnant'.
 
 Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
+15 days from their last activity. Issues closed in this manner will be
 labeled 'stale'.
