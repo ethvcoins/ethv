@@ -964,12 +964,12 @@ Cela implique que des frais d&apos;un minimum de %1 par kb sont requis</translat
         <location line="+1"/>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
 
- This means a fee of at least %2 is required. 
+ This means a fee of at least %2 is required.
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
         <translation>Cette étiquette passe au rouge, Lorsqu&apos;un destinataire reçoit un montant inférieur à %1.
 
-Cela implique que des frais à hauteur de %2 seront nécessaire 
+Cela implique que des frais à hauteur de %2 seront nécessaire
 
 Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent en tant que DUST.</translation>
     </message>
@@ -2675,8 +2675,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
-        <translation>Écouter les connexions sur le &lt;port&gt; (par défault: 11998 ou testnet: 22998)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 44776 or testnet: 33776)</source>
+        <translation>Écouter les connexions sur le &lt;port&gt; (par défault: 44776 ou testnet: 33776)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (default: 11999 or testnet: 22999)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 44777 or testnet: 33777)</source>
+        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (default: 44777 or testnet: 33777)</translation>
     </message>
     <message>
         <location line="-11"/>

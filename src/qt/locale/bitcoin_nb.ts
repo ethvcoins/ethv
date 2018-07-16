@@ -2661,7 +2661,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 44776 or testnet: 33776)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2721,7 +2721,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 44777 or testnet: 33777)</source>
         <translation type="unfinished"/>
     </message>
     <message>
