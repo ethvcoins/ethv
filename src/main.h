@@ -28,7 +28,7 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 2000;
+static const int LAST_POW_BLOCK = 1000;
 static const unsigned int PREMINED_MONEY = 100000000;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
