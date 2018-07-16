@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ETHVCoin</source>
-        <translation>Over ETHVCoin</translation>
+        <source>About EthvCoin</source>
+        <translation>Over EthvCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ETHVCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ETHVCoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;EthvCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;EthvCoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The ETHVCoin developers</source>
+Copyright © 2018 The EthvCoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De ETHVCoin ontwikkelaars</translation>
+Copyright © 2014 De EthvCoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your ETHVCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou ETHVCoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your EthvCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou EthvCoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ETHVCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een ETHVCoin adres bezit.</translation>
+        <source>Sign a message to prove you own a EthvCoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een EthvCoin adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified ETHVCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek ETHVCoin adres</translation>
+        <source>Verify a message to ensure it was signed with a specified EthvCoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek EthvCoin adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-        <source>ETHVCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ETHVCoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>EthvCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>EthvCoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ETHVCoin</source>
-        <translation>Toon informatie over ETHVCoin</translation>
+        <source>Show information about EthvCoin</source>
+        <translation>Toon informatie over EthvCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a ETHVCoin address</source>
-        <translation>Verstuur munten naar een ETHVCoin adres</translation>
+        <source>Send coins to a EthvCoin address</source>
+        <translation>Verstuur munten naar een EthvCoin adres</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for ETHVCoin</source>
-        <translation>Verander configuratie opties voor ETHVCoin</translation>
+        <source>Modify configuration options for EthvCoin</source>
+        <translation>Verander configuratie opties voor EthvCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-200"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About ETHVCoin</source>
-        <translation>&amp;Over ETHVCoin</translation>
+        <source>&amp;About EthvCoin</source>
+        <translation>&amp;Over EthvCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>ETHVCoin client</source>
-        <translation>ETHVCoin client</translation>
+        <source>EthvCoin client</source>
+        <translation>EthvCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ETHVCoin network</source>
-        <translation><numerusform>%n actieve verbinding naar ETHVCoin netwerk</numerusform><numerusform>%n actieve verbindingen naar ETHVCoin netwerk</numerusform></translation>
+        <source>%n active connection(s) to EthvCoin network</source>
+        <translation><numerusform>%n actieve verbinding naar EthvCoin netwerk</numerusform><numerusform>%n actieve verbindingen naar EthvCoin netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -659,8 +659,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ETHVCoin address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig ETHVCoin adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EthvCoin address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig EthvCoin adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -719,8 +719,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ETHVCoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . ETHVCoin kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. EthvCoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . EthvCoin kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ETHVCoin address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig ETHVCoin adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EthvCoin address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig EthvCoin adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>ETHVCoin-Qt</source>
-        <translation>ETHVCoin-Qt</translation>
+        <source>EthvCoin-Qt</source>
+        <translation>EthvCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ETHVCoin after logging in to the system.</source>
-        <translation>Automatisch starten van ETHVCoin na inloggen van het systeem.</translation>
+        <source>Automatically start EthvCoin after logging in to the system.</source>
+        <translation>Automatisch starten van EthvCoin na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ETHVCoin on system login</source>
-        <translation>&amp;Start ETHVCoin bij systeem aanmelding</translation>
+        <source>&amp;Start EthvCoin on system login</source>
+        <translation>&amp;Start EthvCoin bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1170,8 +1170,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ETHVCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De ETHVCoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the EthvCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De EthvCoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ETHVCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het ETHVCoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the EthvCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het EthvCoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ETHVCoin.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na ETHVCoin opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EthvCoin.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na EthvCoin opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1270,8 +1270,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ETHVCoin addresses in the transaction list or not.</source>
-        <translation>ETHVCoin adressen in de transactielijst weergeven of niet</translation>
+        <source>Whether to show EthvCoin addresses in the transaction list or not.</source>
+        <translation>EthvCoin adressen in de transactielijst weergeven of niet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1317,8 +1317,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ETHVCoin.</source>
-        <translation>Deze instelling word toegepast na een restart van ETHVCoin.</translation>
+        <source>This setting will take effect after restarting EthvCoin.</source>
+        <translation>Deze instelling word toegepast na een restart van EthvCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1336,8 +1336,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ETHVCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het ETHVCoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EthvCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het EthvCoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1552,8 +1552,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ETHVCoin-Qt help message to get a list with possible ETHVCoin command-line options.</source>
-        <translation>Laat het ETHVCoin-QT help bericht zien om een lijst te krijgen met mogelijke ETHVCoin command-regel opties.</translation>
+        <source>Show the EthvCoin-Qt help message to get a list with possible EthvCoin command-line options.</source>
+        <translation>Laat het EthvCoin-QT help bericht zien om een lijst te krijgen met mogelijke EthvCoin command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1572,13 +1572,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>ETHVCoin - Debug window</source>
-        <translation>ETHVCoin - Debugscherm</translation>
+        <source>EthvCoin - Debug window</source>
+        <translation>EthvCoin - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ETHVCoin Core</source>
-        <translation>ETHVCoin Kern</translation>
+        <source>EthvCoin Core</source>
+        <translation>EthvCoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1587,8 +1587,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ETHVCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het ETHVCoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the EthvCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het EthvCoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1597,8 +1597,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the ETHVCoin RPC console.</source>
-        <translation>Welkom bij de ETHVCoin RPC console.</translation>
+        <source>Welcome to the EthvCoin RPC console.</source>
+        <translation>Welkom bij de EthvCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1756,8 +1756,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een ETHVCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een EthvCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1856,8 +1856,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid ETHVCoin address</source>
-        <translation>WAARSCHUWING: Ongeldig ETHVCoin adres</translation>
+        <source>WARNING: Invalid EthvCoin address</source>
+        <translation>WAARSCHUWING: Ongeldig EthvCoin adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1930,8 +1930,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een ETHVCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een EthvCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1991,8 +1991,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ETHVCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een ETHVCoin adres bezit.</translation>
+        <source>Sign the message to prove you own this EthvCoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een EthvCoin adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2023,8 +2023,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ETHVCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek ETHVCoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified EthvCoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek EthvCoin adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2034,8 +2034,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een ETHVCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een EthvCoin adres in (bijv. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2044,8 +2044,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ETHVCoin signature</source>
-        <translation>Voer ETHVCoin handtekening in</translation>
+        <source>Enter EthvCoin signature</source>
+        <translation>Voer EthvCoin handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2615,8 +2615,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>ETHVCoin version</source>
-        <translation>ETHVCoin versie</translation>
+        <source>EthvCoin version</source>
+        <translation>EthvCoin versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2675,8 +2675,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 23455 of testnet: 45151)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 11998 of testnet: 22998)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 23456 or testnet: 45152)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 23456 of testnet: 45152) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 11999 of testnet: 22999) </translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2800,8 +2800,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ETHVCoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is ETHVCoin zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EthvCoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is EthvCoin zal niet goed werken.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2990,24 +2990,24 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=ETHVCoinrpc
+rpcuser=EthvCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-rpcuser = ETHVCoinrpc 
+rpcuser = EthvCoinrpc 
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo.com </translation>
+bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo.com </translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3131,13 +3131,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  ETHVCoin is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. ETHVCoin wordt waarschijnlijk al uitgevoerd.</translation>
+        <source>Cannot obtain a lock on data directory %s.  EthvCoin is probably already running.</source>
+        <translation>Kan een slot op data directory %s niet verkrijgen. EthvCoin wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3171,13 +3171,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ETHVCoin</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van ETHVCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EthvCoin</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van EthvCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ETHVCoin to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart ETHVCoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart EthvCoin to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart EthvCoin om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3246,8 +3246,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. ETHVCoin is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. ETHVCoin is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. EthvCoin is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. EthvCoin is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-97"/>

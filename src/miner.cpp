@@ -81,7 +81,7 @@ public:
 uint64_t nLastBlockTx = 0;
 uint64_t nLastBlockSize = 0;
 int64_t nLastCoinStakeSearchInterval = 0;
- 
+
 // We want to sort transactions by priority and fee, so:
 typedef boost::tuple<double, double, CTransaction*> TxPriority;
 class TxPriorityCompare
@@ -524,7 +524,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("ETHVCoin-miner");
+    RenameThread("EthvCoin-miner");
 
     bool fTryToSync = true;
 

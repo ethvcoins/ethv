@@ -955,7 +955,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "ETHVCoin";
+    const char* pszModule = "EthvCoin";
 #endif
     if (pex)
         return strprintf(
@@ -985,13 +985,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ETHVCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ETHVCoin
-    // Mac: ~/Library/Application Support/ETHVCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\EthvCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\EthvCoin
+    // Mac: ~/Library/Application Support/EthvCoin
     // Unix: ~/.ethvcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ETHVCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "EthvCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1003,7 +1003,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "ETHVCoin";
+    return pathRet / "EthvCoin";
 #else
     // Unix
     return pathRet / ".ethvcoin";
@@ -1209,10 +1209,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong ETHVCoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong EthvCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("ETHVCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("EthvCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

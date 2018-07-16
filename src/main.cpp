@@ -41,7 +41,7 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 1 * 60; // 1 minute
-unsigned int nStakeMinAge = 8 * 60 * 60;
+unsigned int nStakeMinAge = 12 * 60 * 60;
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "ETHVCoin Signed Message:\n";
+const string strMessageMagic = "EthvCoin Signed Message:\n";
 
 // Settings
 int64_t nTransactionFee = MIN_TX_FEE;
@@ -2412,7 +2412,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "ETHVCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "EthvCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2527,7 +2527,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = "Bitcoin Price Weekly Analysis: BTC/USD Could Break $7,000";
+        const char* pszTimestamp = "Bitcoin Awaits Price Breakout As Trading Range Tightens";
         CTransaction txNew;
         txNew.nTime = 1531042947;
         txNew.vin.resize(1);
@@ -2541,9 +2541,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1531042947;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 490813 : 12436;
+        block.nNonce   = !fTestNet ? 1658607 : 102154;
 
-        assert(block.hashMerkleRoot == uint256("0x01d02c301df6ddb76deb077fdc1d29eecb5127dbbed99e050913f5d3479fd538"));
+        assert(block.hashMerkleRoot == uint256("0x2e11156c81106812239f0a76a190dbe1c4515f0aa09fd93b4d593c5f8f131bcd"));
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
 

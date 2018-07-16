@@ -10,14 +10,14 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "%s, you must set a rpcpassword in the configuration file:\n"
 " %s\n"
 "It is recommended you use the following random password:\n"
-"rpcuser=ETHVCoinrpc\n"
+"rpcuser=EthvCoinrpc\n"
 "rpcpassword=%s\n"
 "(you do not need to remember this password)\n"
 "The username and password MUST NOT be the same.\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"ETHVCoin Alert\" admin@foo."
+"for example: alertnotify=echo %%s | mail -s \"EthvCoin Alert\" admin@foo."
 "com\n"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
@@ -30,12 +30,12 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "%s\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions."),
-QT_TRANSLATE_NOOP("bitcoin-core", "ETHVCoin version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "EthvCoin version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Usage:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or ethvcoind"),
 QT_TRANSLATE_NOOP("bitcoin-core", "List commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Get help for a command"),
-QT_TRANSLATE_NOOP("bitcoin-core", "ETHVCoin"),
+QT_TRANSLATE_NOOP("bitcoin-core", "EthvCoin"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: ethvcoin.conf)"),
@@ -49,7 +49,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Connect through socks proxy"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Select the version of socks proxy to use (4-5, default: 5)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use proxy to reach tor hidden services (default: same as -proxy)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 23455 or testnet: 45151)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 11998 or testnet: 22998)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Maintain at most <n> connections to peers (default: 125)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Add a node to connect to and attempt to keep the connection open"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect only to the specified node(s)"),
@@ -92,7 +92,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to debugger"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Password for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Listen for JSON-RPC connections on <port> (default: 23456 or testnet: 45152)"),
+"Listen for JSON-RPC connections on <port> (default: 11999 or testnet: 22999)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow JSON-RPC connections from specified IP address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
@@ -134,7 +134,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount for -mininput=<amount>: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet %s resides outside data directory %s."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s.  ETHVCoin is probably already "
+"Cannot obtain a lock on data directory %s.  EthvCoin is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying database integrity..."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
@@ -161,8 +161,8 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of ETHVCoin"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart ETHVCoin to complete"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of EthvCoin"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart EthvCoin to complete"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot initialize keypool"),
@@ -174,7 +174,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: could not start node"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Done loading"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Unable to bind to %s on this computer. ETHVCoin is probably already running."),
+"Unable to bind to %s on this computer. EthvCoin is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet locked, unable to create transaction  "),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet unlocked for staking only, unable to create transaction."),
@@ -191,7 +191,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong ETHVCoin will not work properly."),
+"your clock is wrong EthvCoin will not work properly."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: This version is obsolete, upgrade required!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "WARNING: syncronized checkpoint violation detected, but skipped!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: Disk space is low!"),

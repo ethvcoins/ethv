@@ -28,8 +28,8 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 5000;
-static const unsigned int PREMINED_MONEY = 100000000;
+static const int LAST_POW_BLOCK = 2000;
+static const unsigned int PREMINED_MONEY = 2500000000;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
@@ -53,8 +53,8 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-static const uint256 hashGenesisBlock("0x0000026386ad93b0cb82fb3f314e761dee56b218a6eb0652a44559131d31ef83");
-static const uint256 hashGenesisBlockTestNet("0x00003a25949bd80c8e981c02b4c148dd61874464209376871661fd28f63ed785");
+static const uint256 hashGenesisBlock("0x00000dc36fbe245092e0c0ddc0920353fe60369842241e26f3b858727ef00aae");
+static const uint256 hashGenesisBlockTestNet("0x0000addf70ca38d549d6058b88a73de163f9b08c13a7b51bf2a039a7ca2cf780");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future

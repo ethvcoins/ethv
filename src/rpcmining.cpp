@@ -102,12 +102,12 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "ETHVCoin is not connected!");
+        throw JSONRPCError(-9, "EthvCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "ETHVCoin is downloading blocks...");
+        throw JSONRPCError(-10, "EthvCoin is downloading blocks...");
 
-    if (pindexBest->nHeight >= LAST_POW_BLOCK)
+    if (pindexBest->nHeight > LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
     typedef map<uint256, pair<CBlock*, CScript> > mapNewBlock_t;
@@ -236,12 +236,12 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "ETHVCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "EthvCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "ETHVCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "EthvCoin is downloading blocks...");
 
-    if (pindexBest->nHeight >= LAST_POW_BLOCK)
+    if (pindexBest->nHeight > LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
     typedef map<uint256, pair<CBlock*, CScript> > mapNewBlock_t;
@@ -380,12 +380,12 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "ETHVCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "EthvCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "ETHVCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "EthvCoin is downloading blocks...");
 
-    if (pindexBest->nHeight >= LAST_POW_BLOCK)
+    if (pindexBest->nHeight > LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
     static CReserveKey reservekey(pwalletMain);

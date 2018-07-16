@@ -5,19 +5,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ETHVCoin</source>
-        <translation>About ETHVCoin</translation>
+        <source>About EthvCoin</source>
+        <translation>About EthvCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ETHVCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ETHVCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;EthvCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;EthvCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The ETHVCoin developers</source>
+Copyright © 2018 The EthvCoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -65,8 +65,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your ETHVCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your ETHVCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your EthvCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your EthvCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ETHVCoin address</source>
-        <translation>Sign a message to prove you own a ETHVCoin address</translation>
+        <source>Sign a message to prove you own a EthvCoin address</source>
+        <translation>Sign a message to prove you own a EthvCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified ETHVCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified ETHVCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified EthvCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified EthvCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>ETHVCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ETHVCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>EthvCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>EthvCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ETHVCoin</source>
-        <translation>Show information about ETHVCoin</translation>
+        <source>Show information about EthvCoin</source>
+        <translation>Show information about EthvCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a ETHVCoin address</source>
-        <translation>Send coins to a ETHVCoin address</translation>
+        <source>Send coins to a EthvCoin address</source>
+        <translation>Send coins to a EthvCoin address</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for ETHVCoin</source>
-        <translation>Modify configuration options for ETHVCoin</translation>
+        <source>Modify configuration options for EthvCoin</source>
+        <translation>Modify configuration options for EthvCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About ETHVCoin</source>
-        <translation>&amp;About ETHVCoin</translation>
+        <source>&amp;About EthvCoin</source>
+        <translation>&amp;About EthvCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,15 +542,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>ETHVCoin client</source>
-        <translation>ETHVCoin client</translation>
+        <source>EthvCoin client</source>
+        <translation>EthvCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ETHVCoin network</source>
+        <source>%n active connection(s) to EthvCoin network</source>
         <translation>
-            <numerusform>%n active connection to ETHVCoin network</numerusform>
-            <numerusform>%n active connections to ETHVCoin network</numerusform>
+            <numerusform>%n active connection to EthvCoin network</numerusform>
+            <numerusform>%n active connections to EthvCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -677,8 +677,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ETHVCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid ETHVCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EthvCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid EthvCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -749,8 +749,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ETHVCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. ETHVCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. EthvCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. EthvCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1069,8 +1069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ETHVCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid ETHVCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EthvCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid EthvCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1088,8 +1088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>ETHVCoin-Qt</source>
-        <translation>ETHVCoin-Qt</translation>
+        <source>EthvCoin-Qt</source>
+        <translation>EthvCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1161,13 +1161,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ETHVCoin after logging in to the system.</source>
-        <translation>Automatically start ETHVCoin after logging in to the system.</translation>
+        <source>Automatically start EthvCoin after logging in to the system.</source>
+        <translation>Automatically start EthvCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ETHVCoin on system login</source>
-        <translation>&amp;Start ETHVCoin on system login</translation>
+        <source>&amp;Start EthvCoin on system login</source>
+        <translation>&amp;Start EthvCoin on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1186,8 +1186,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ETHVCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the ETHVCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the EthvCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the EthvCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1196,8 +1196,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ETHVCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the ETHVCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the EthvCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the EthvCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1271,8 +1271,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ETHVCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting ETHVCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EthvCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting EthvCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1286,8 +1286,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ETHVCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show ETHVCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show EthvCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show EthvCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1333,8 +1333,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ETHVCoin.</source>
-        <translation>This setting will take effect after restarting ETHVCoin.</translation>
+        <source>This setting will take effect after restarting EthvCoin.</source>
+        <translation>This setting will take effect after restarting EthvCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1352,8 +1352,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ETHVCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the ETHVCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EthvCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the EthvCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1568,8 +1568,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ETHVCoin-Qt help message to get a list with possible ETHVCoin command-line options.</source>
-        <translation>Show the ETHVCoin-Qt help message to get a list with possible ETHVCoin command-line options.</translation>
+        <source>Show the EthvCoin-Qt help message to get a list with possible EthvCoin command-line options.</source>
+        <translation>Show the EthvCoin-Qt help message to get a list with possible EthvCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1588,13 +1588,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>ETHVCoin - Debug window</source>
-        <translation>ETHVCoin - Debug window</translation>
+        <source>EthvCoin - Debug window</source>
+        <translation>EthvCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ETHVCoin Core</source>
-        <translation>ETHVCoin Core</translation>
+        <source>EthvCoin Core</source>
+        <translation>EthvCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1603,8 +1603,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ETHVCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the ETHVCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the EthvCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the EthvCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1613,8 +1613,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the ETHVCoin RPC console.</source>
-        <translation>Welcome to the ETHVCoin RPC console.</translation>
+        <source>Welcome to the EthvCoin RPC console.</source>
+        <translation>Welcome to the EthvCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1772,8 +1772,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1872,7 +1872,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid ETHVCoin address</source>
+        <source>WARNING: Invalid EthvCoin address</source>
         <translation></translation>
     </message>
     <message>
@@ -1946,8 +1946,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2007,8 +2007,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ETHVCoin address</source>
-        <translation>Sign the message to prove you own this ETHVCoin address</translation>
+        <source>Sign the message to prove you own this EthvCoin address</source>
+        <translation>Sign the message to prove you own this EthvCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2039,8 +2039,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ETHVCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified ETHVCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified EthvCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified EthvCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2050,8 +2050,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2060,8 +2060,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ETHVCoin signature</source>
-        <translation>Enter ETHVCoin signature</translation>
+        <source>Enter EthvCoin signature</source>
+        <translation>Enter EthvCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2643,8 +2643,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>ETHVCoin version</source>
-        <translation>ETHVCoin version</translation>
+        <source>EthvCoin version</source>
+        <translation>EthvCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2703,8 +2703,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2763,7 +2763,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 23456 or testnet: 45152)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
         <translation></translation>
     </message>
     <message>
@@ -2828,8 +2828,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ETHVCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ETHVCoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EthvCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EthvCoin will not work properly.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3017,13 +3017,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=ETHVCoinrpc
+rpcuser=EthvCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3149,13 +3149,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  ETHVCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  ETHVCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  EthvCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  EthvCoin is probably already running.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3189,13 +3189,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ETHVCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of ETHVCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EthvCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of EthvCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ETHVCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart ETHVCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart EthvCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart EthvCoin to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3264,8 +3264,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. ETHVCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. ETHVCoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. EthvCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. EthvCoin is probably already running.</translation>
     </message>
     <message>
         <location line="-97"/>

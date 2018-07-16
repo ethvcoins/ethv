@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ETHVCoin</source>
-        <translation>Tietoa ETHVCoinista</translation>
+        <source>About EthvCoin</source>
+        <translation>Tietoa EthvCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ETHVCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ETHVCoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;EthvCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;EthvCoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The ETHVCoin developers</source>
+Copyright © 2018 The EthvCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your ETHVCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat ETHVCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your EthvCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat EthvCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ETHVCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi ETHVCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a EthvCoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi EthvCoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified ETHVCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen ETHVCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified EthvCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen EthvCoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +262,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>ETHVCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ETHVCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>EthvCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>EthvCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ETHVCoin</source>
-        <translation>Näytä tietoja ETHVCoinista</translation>
+        <source>Show information about EthvCoin</source>
+        <translation>Näytä tietoja EthvCoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a ETHVCoin address</source>
-        <translation>Lähetä kolikkoja ETHVCoin osoitteeseen</translation>
+        <source>Send coins to a EthvCoin address</source>
+        <translation>Lähetä kolikkoja EthvCoin osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for ETHVCoin</source>
-        <translation>Mukauta ETHVCoinin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for EthvCoin</source>
+        <translation>Mukauta EthvCoinin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +471,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +481,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About ETHVCoin</source>
-        <translation>&amp;Tietoa ETHVCoinista</translation>
+        <source>&amp;About EthvCoin</source>
+        <translation>&amp;Tietoa EthvCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +538,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>ETHVCoin client</source>
-        <translation>ETHVCoin-asiakas</translation>
+        <source>EthvCoin client</source>
+        <translation>EthvCoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ETHVCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys ETHVCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä ETHVCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to EthvCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys EthvCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä EthvCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ETHVCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä ETHVCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid EthvCoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä EthvCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ETHVCoin can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. ETHVCoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. EthvCoin can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. EthvCoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ETHVCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty ETHVCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EthvCoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty EthvCoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>ETHVCoin-Qt</source>
-        <translation>ETHVCoin-Qt</translation>
+        <source>EthvCoin-Qt</source>
+        <translation>EthvCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ETHVCoin after logging in to the system.</source>
-        <translation>Käynnistä ETHVCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start EthvCoin after logging in to the system.</source>
+        <translation>Käynnistä EthvCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ETHVCoin on system login</source>
-        <translation>%Käynnistä ETHVCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start EthvCoin on system login</source>
+        <translation>%Käynnistä EthvCoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ETHVCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa ETHVCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the EthvCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa EthvCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ETHVCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä ETHVCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the EthvCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä EthvCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ETHVCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta ETHVCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EthvCoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta EthvCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ETHVCoin addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota ETHVCoin-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show EthvCoin addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota EthvCoin-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ETHVCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta ETHVCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting EthvCoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta EthvCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ETHVCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti ETHVCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EthvCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti EthvCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ETHVCoin-Qt help message to get a list with possible ETHVCoin command-line options.</source>
-        <translation>Näytä ETHVCoin-Qt:n avustusohje saadaksesi listan käytettävistä ETHVCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the EthvCoin-Qt help message to get a list with possible EthvCoin command-line options.</source>
+        <translation>Näytä EthvCoin-Qt:n avustusohje saadaksesi listan käytettävistä EthvCoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>ETHVCoin - Debug window</source>
-        <translation>ETHVCoin - Debug-ikkuna</translation>
+        <source>EthvCoin - Debug window</source>
+        <translation>EthvCoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ETHVCoin Core</source>
-        <translation>ETHVCoinin ydin</translation>
+        <source>EthvCoin Core</source>
+        <translation>EthvCoinin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ETHVCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa ETHVCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the EthvCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa EthvCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the ETHVCoin RPC console.</source>
-        <translation>Tervetuloa ETHVCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the EthvCoin RPC console.</source>
+        <translation>Tervetuloa EthvCoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ETHVCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä EthvCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid ETHVCoin address</source>
-        <translation>VAROITUS: Epäkelpo ETHVCoin-osoite</translation>
+        <source>WARNING: Invalid EthvCoin address</source>
+        <translation>VAROITUS: Epäkelpo EthvCoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ETHVCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä EthvCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ETHVCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän ETHVCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this EthvCoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän EthvCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ETHVCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä ETHVCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified EthvCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä EthvCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ETHVCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ETHVCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a EthvCoin address (e.g. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä EthvCoin-osoite (esim. E8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ETHVCoin signature</source>
-        <translation>Syötä ETHVCoin-allekirjoitus</translation>
+        <source>Enter EthvCoin signature</source>
+        <translation>Syötä EthvCoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>ETHVCoin version</source>
-        <translation>ETHVCoinin versio</translation>
+        <source>EthvCoin version</source>
+        <translation>EthvCoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2649,7 +2649,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: ethvcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: ETHVCoin.pid)</translation>
+        <translation>Määritä prosessitiedosto (oletus: EthvCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2673,8 +2673,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 23455 tai testiverkko: 45151)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 11998 tai testiverkko: 22998)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2733,8 +2733,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 23456 or testnet: 45152)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 23456 tai testiverkko: 45152)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 11999 tai testiverkko: 22999)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2798,8 +2798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ETHVCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, ETHVCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EthvCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, EthvCoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,23 +2988,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=ETHVCoinrpc
+rpcuser=EthvCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=ETHVCoinrpc
+rpcuser=EthvCoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;ETHVCoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,13 +3129,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  ETHVCoin is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. ETHVCoin-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  EthvCoin is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. EthvCoin-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>ETHVCoin</source>
-        <translation>ETHVCoin</translation>
+        <source>EthvCoin</source>
+        <translation>EthvCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3169,13 +3169,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ETHVCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version ETHVCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EthvCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version EthvCoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ETHVCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä ETHVCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart EthvCoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä EthvCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3244,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. ETHVCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. ETHVCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. EthvCoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. EthvCoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>
