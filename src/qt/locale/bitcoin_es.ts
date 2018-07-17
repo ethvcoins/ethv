@@ -3000,7 +3000,7 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=EthvCoinrpc
+rpcuser=ethvcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3011,7 +3011,7 @@ for example: alertnotify=echo %%s | mail -s &quot;EthvCoin Alert&quot; admin@foo
         <translation>%s, debe establecer un rpcpassword en el fichero de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=EthvCoinrpc
+rpcuser=ethvcoinrpc
 rpcpassword=%s
 (no necesita recordar este password)
 El nombre de usuario y contraseña no debe ser el mismo.
