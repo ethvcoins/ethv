@@ -2510,12 +2510,10 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-
         // MainNet:
-
-        const char* pszTimestamp = "ethworld will get success";
+        const char* pszTimestamp = "EthvCoin, The Best Cryptocurrency";
         CTransaction txNew;
-        txNew.nTime = 1521208427;
+        txNew.nTime = 1531833000;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2525,9 +2523,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1521208427;
+        block.nTime    = 1531833000;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 5476 : 5476;
+        block.nNonce   = !fTestNet ? 0 : 0;
 
         if (true  && (block.GetHash() != hashGenesisBlock)) {
 
