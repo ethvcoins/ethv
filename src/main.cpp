@@ -1000,7 +1000,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
-    return nSubsidy + nFees;
+    return (nSubsidy + nFees);
 }
 
 // miner's coin stake reward based on coin age spent (coin-days)
@@ -1011,7 +1011,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
 
-    return nSubsidy + nFees;
+    return (nSubsidy + nFees);
 }
 
 static const int64_t nTargetTimespan = 16 * 60;  // 16 mins
