@@ -41,9 +41,9 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 1 * 60; // 1 minute
-unsigned int nStakeMinAge = 12 * 60 * 60;
+unsigned int nStakeMinAge = 8 * 60 * 60;
 unsigned int nStakeMaxAge = -1; // unlimited
-unsigned int nModifierInterval = 15 * 60; // time to elapse before new modifier is computed
+unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 20;
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -179,12 +179,6 @@ void ResendWalletTransactions(bool fForce)
     BOOST_FOREACH(CWallet* pwallet, setpwalletRegistered)
         pwallet->ResendWalletTransactions(fForce);
 }
-
-
-
-
-
-
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -937,6 +931,12 @@ bool GetTransaction(const uint256 &hash, CTransaction &tx, uint256 &hashBlock)
 }
 
 
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////
 //
 // CBlock and CBlockIndex
@@ -995,7 +995,7 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
 
-    int64_t nSubsidy = (PREMINED_MONEY/LAST_POW_BLOCK) * COIN;
+    int64_t nSubsidy = (PREMINED_MONEY / LAST_POW_BLOCK) * COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -1126,7 +1126,7 @@ static unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool 
 
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
-    if (pindexLast->nHeight < 50)
+    if (pindexLast->nHeight < LAST_POW_BLOCK)
         return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
     else
         return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
@@ -1167,7 +1167,7 @@ bool IsInitialBlockDownload()
         nLastUpdate = GetTime();
     }
     return (GetTime() - nLastUpdate < 15 &&
-            pindexBest->GetBlockTime() < GetTime() - 8 * 60 * 60);
+            pindexBest->GetBlockTime() < GetTime() - nStakeMinAge);
 }
 
 void static InvalidChainFound(CBlockIndex* pindexNew)
@@ -2324,7 +2324,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
     return true;
 }
 
-// coin: attempt to generate suitable proof-of-stake
+// novacoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -2412,7 +2412,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "EthvCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "ethvcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2474,10 +2474,10 @@ bool LoadBlockIndex(bool fAllowNew)
 
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x09;
-        pchMessageStart[1] = 0x47;
-        pchMessageStart[2] = 0x13;
-        pchMessageStart[3] = 0x04;
+        pchMessageStart[0] = 0x22;
+        pchMessageStart[1] = 0xa3;
+        pchMessageStart[2] = 0x4b;
+        pchMessageStart[3] = 0x5d;
 
         bnTrustedModulus.SetHex("f0d14cf72623dacfe738d0892b599be0f31052239cddd95a3f25101c801dc990453b38c9434efe3f372db39a32c2bb44cbaea72d62c8931fa785b0ec44531308df3e46069be5573e49bb29f4d479bfc3d162f57a5965db03810be7636da265bfced9c01a6b0296c77910ebdc8016f70174f0f18a57b3b971ac43a934c6aedbc5c866764a3622b5b7e3f9832b8b3f133c849dbcc0396588abcd1e41048555746e4823fb8aba5b3d23692c6857fccce733d6bb6ec1d5ea0afafecea14a0f6f798b6b27f77dc989c557795cc39a0940ef6bb29a7fc84135193a55bcfc2f01dd73efad1b69f45a55198bd0e6bef4d338e452f6a420f1ae2b1167b923f76633ab6e55");
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
@@ -2512,9 +2512,10 @@ bool LoadBlockIndex(bool fAllowNew)
         // Genesis block
 
         // MainNet:
-        const char* pszTimestamp = "Learning to Sail the Bitcoin Market";
+
+        const char* pszTimestamp = "ethworld will get success";
         CTransaction txNew;
-        txNew.nTime = 1531716738;
+        txNew.nTime = 1521208427;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2524,21 +2525,24 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1531716738;
+        block.nTime    = 1521208427;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 287344 : 41434;
+        block.nNonce   = !fTestNet ? 5476 : 5476;
 
         if (true  && (block.GetHash() != hashGenesisBlock)) {
-            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
-            while (block.GetHash() > hashTarget)
-               {
-                   ++block.nNonce;
-                   if (block.nNonce == 0)
-                   {
-                       printf("NONCE WRAPPED, incrementing time");
-                       ++block.nTime;
-                   }
-               }
+
+                // This will figure out a valid hash and Nonce if you're
+                // creating a different genesis block:
+                    uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+                    while (block.GetHash() > hashTarget)
+                       {
+                           ++block.nNonce;
+                           if (block.nNonce == 0)
+                           {
+                               printf("NONCE WRAPPED, incrementing time");
+                               ++block.nTime;
+                           }
+                       }
         }
 
         //// debug print
@@ -2549,7 +2553,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
 
-        assert(block.hashMerkleRoot == uint256("0xea706379ad61812a72400bbd65f0d5a3008bcf803cc78806f142aca4193c8fb5"));
+        assert(block.hashMerkleRoot == uint256("0xe84c0c06ea8dd9b9132b360abe5bbcfed94e6e3e93fc8660523ac38465da0eec"));
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
 
@@ -2776,6 +2780,13 @@ string GetWarnings(string strFor)
     return "error";
 }
 
+
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////
 //
 // Messages
@@ -2809,7 +2820,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xca, 0xed, 0xaa, 0xcd };
+unsigned char pchMessageStart[4] = { 0xa8, 0xc3, 0x2e, 0x01 };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {

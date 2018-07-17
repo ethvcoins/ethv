@@ -372,7 +372,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-                     "User-Agent: EthvCoin\r\n"
+                     "User-Agent: ethvcoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -391,7 +391,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-                     "User-Agent: EthvCoin\r\n"
+                     "User-Agent: ethvcoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -1217,11 +1217,19 @@ void MapPort()
 #endif
 
 
+
+
+
+
+
+
+
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
+    {"ethvcoin.io", "nodes.ethvcoin.io"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
