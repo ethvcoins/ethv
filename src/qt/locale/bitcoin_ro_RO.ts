@@ -27,13 +27,13 @@ This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Francis Cheah (vampcheah@makeit.com.my) and UPnP software written by Thomas Bernard.</source>
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Francis C. (developer@makeit) and UPnP software written by Thomas Bernard.</source>
         <translation>
 Acesta este un software experimental.
 
 Distribuit sub licența MIT/X11, vezi fișierul însoțitor COPYING sau http://www.opensource.org/licenses/mit-license.php.
 
-Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi folosite în OpenSSL Toolkit (http://www.openssl.org/) și programe criptografice scrise de către Francis Cheah (vampcheah@makeit.com.my) și programe UPnP scrise de către Thomas Bernard.</translation>
+Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi folosite în OpenSSL Toolkit (http://www.openssl.org/) și programe criptografice scrise de către Francis C. (developer@makeit) și programe UPnP scrise de către Thomas Bernard.</translation>
     </message>
 </context>
 <context>

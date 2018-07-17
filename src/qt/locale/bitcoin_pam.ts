@@ -25,11 +25,11 @@ This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Francis Cheah (vampcheah@makeit.com.my) and UPnP software written by Thomas Bernard.</source>
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Francis C. (developer@makeit) and UPnP software written by Thomas Bernard.</source>
         <translation>
 Metung ya ining experimental software.
 Me-distribute ya lalam na ning lisensya na ning MIT/X11 software, lawan ye ing makayabeng file COPYING o http://www.opensource.org/licenses/mit-license.php.
-Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project para gamit king OpenSSL Toolkit(http://www.openssl.org/) at cryptographic software a sinulat ng Francis Cheah (vampcheah@makeit.com.my) at UPnp software a sinulat ng Thomas Bernard.</translation>
+Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project para gamit king OpenSSL Toolkit(http://www.openssl.org/) at cryptographic software a sinulat ng Francis C. (developer@makeit) at UPnp software a sinulat ng Thomas Bernard.</translation>
     </message>
 </context>
 <context>
