@@ -1008,7 +1008,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
     int64_t nSubsidy = 0 * COIN;
 
-    if((LAST_POW_BLOCK+5) >= nBestHeight){
+    if((LAST_POW_BLOCK) >= nBestHeight){
         nSubsidy = (PREMINED_MONEY / LAST_POW_BLOCK) * COIN;
     }
 
