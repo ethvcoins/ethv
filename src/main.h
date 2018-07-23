@@ -28,7 +28,7 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 2880;
+static const int LAST_POW_BLOCK = 28800;
 static const int REWARD_BLOCK = 10;
 static const unsigned int PREMINED_COIN = 100000000;
 
